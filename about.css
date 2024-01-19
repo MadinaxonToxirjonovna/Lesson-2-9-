@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    width: 1340px;
+    height: 720px;
+    background: #F3D7B7;
+}
+
+body {
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    width: 1340px;
+    /* border: 2px solid red; */
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin: 27px 0 0 803px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu ul li:active{
+    box-shadow: 15px 15px 10px white;
+    border-radius: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.menu img {
+    width: 227px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.menu img:active {
+    box-shadow: 10px 10px 10px #0A775F;
+}
+
+.naw_wrapper {
+    display: flex;
+}
+
+.header_texts {
+    width: 464px;
+    height: 367px;
+    flex-shrink: 0;
+    margin: 135px 128px 74.86px 0;
+}
+
+.header_texts h1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 47px;
+}
+
+.header_texts p {
+    width: 372px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 300.35px;
+}
+
+
+.header_image img:nth-child(1) {
+    position: relative;
+    width: 660px;
+    height: 390px;
+    /* border: 3px solid lawngreen; */
+    left: 85px;
+    top: 135px;
+}
+
+.header_image img:nth-child(2) {
+    position: absolute;
+    top: 130px;
+    left: 638px;
+}
+
+.header_image img:nth-child(2):hover {
+    transform: scale(1.4);
+}
+
+.our_section {
+    background: url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat;
+    background-blend-mode: overlay;
+}
+
+.commitment {
+    display: flex;
+}
+
+.cup img {
+    width: 371.725px;
+    height: 364px;
+    flex-shrink: 0;
+    margin: 160.29px 0 216px 0;
+}
+
+.cup img:hover{
+    transform: scale(1.2);
+}
+
+
+.simple h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+    margin: 160px 253.75px 64px 322.68px;
+}
+
+.simple p {
+    width: 646.388px;
+    height: 207.488px;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 0 252.51px 318.68px;
+}
+
+.quality {
+    background: #C99B67;
+}
+
+.Uncompromising {
+    display: flex;
+    position: relative;
+}
+
+.close h3 {
+    width: 397px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+    margin: 102px 373px 28px 0;
+}
+
+.close p {
+    width: 639px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 122px 105px 0;
+}
+
+.qualit_images img{
+    position: absolute;
+    width: 566px;
+height: 552px;
+flex-shrink: 0;
+bottom: 114px;
+right: 0;
+}
+
+footer{
+    background: #F3D7B7;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.footer_images img {
+    width: 235px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 46px 225px 73px 0;
+    cursor: pointer;
+}
+
+.footer_images img:active {
+    box-shadow: 10px 10px 10px #0A775F;
+}
+
+.footer_menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin: 55px 0px 69px 0;
+}
+
+.footer_menu ul li:active{
+    box-shadow: 15px 15px 10px white;
+    border-radius: 10px;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: #333;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+
+.footer_menu .internet {
+    margin: 49px 0 64px 365px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   
+}
+
+.footer_menu .internet img:hover{
+    transform: scale(1.6);
+}
